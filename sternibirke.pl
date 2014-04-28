@@ -6,10 +6,10 @@ use strict;
  
 my $nt = Net::Twitter->new(
       traits                 => [qw/API::RESTv1_1/],
-      consumer_key           => "NryJl4y8lKATh8LkVyxaEg",
-      consumer_secret        => "Ydx4qYTiXOEyPYyQR22F388ixFr8zb82SWnoSWrUjQ",
-      access_token           => "71992998-Ha10ixIaMBT1B6I7KIiA14YtuHJWAC1qjKesQ3tBt",
-      access_token_secret    => "H8UK3lYGNdLWAcwKPEQaXg9og4qm0CAojobCLDfqUUrGd",
+      consumer_key           => "<<your key>>",
+      consumer_secret        => "<<your secret>>",
+      access_token           => "<<your token>>",
+      access_token_secret    => "<<your token secret>>",
       ssl                    => '1',
       decode_html_entities   => '1',
 );
